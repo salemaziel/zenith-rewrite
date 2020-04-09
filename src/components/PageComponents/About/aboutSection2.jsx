@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import { Climbing } from '../../../images/index'
 
 class AboutSection2 extends Component {
   render() {
@@ -24,7 +25,7 @@ class AboutSection2 extends Component {
               </div>
             </div>
             <div className="single-item right-item">
-              <img src="img/about/about4.jpg" alt="About Us" />
+              <img src={Climbing} alt="About Us" />
             </div>
           </div>
         </section>

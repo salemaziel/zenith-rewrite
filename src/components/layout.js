@@ -7,7 +7,7 @@ import Footer from "./Footer"
 import "bootstrap/dist/css/bootstrap.min.css"
 import '../css/main.css'
 
-//import "./layout.css"
+import "./layout.css"
 
 
 const Layout = ({ children }) => {

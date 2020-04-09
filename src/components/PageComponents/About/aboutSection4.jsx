@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { ProgressBg } from '../../../images/index'
 
 
 class AboutSection4 extends Component {
@@ -9,7 +9,7 @@ class AboutSection4 extends Component {
         <section
           className="progress-wrap-layout2 parallax-window"
           data-parallax="scroll"
-          data-image-src="img/figure/banner-bg.jpg"
+          data-image-src={ProgressBg}
         >
           <div className="container">
             <div className="row">

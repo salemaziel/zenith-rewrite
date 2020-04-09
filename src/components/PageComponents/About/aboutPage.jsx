@@ -7,8 +7,8 @@ import AboutSection1 from './aboutSection1';
 import AboutSection2 from './aboutSection2';
 import AboutSection3 from './aboutSection3';
 import AboutSection4 from './aboutSection4';
-import AboutSection5 from './aboutSection5';
 
+import './about.css'
 
 class AboutPage extends Component {
     render() {
@@ -19,7 +19,6 @@ class AboutPage extends Component {
         <AboutSection2 />
         <AboutSection3 />
         <AboutSection4 />
-        <AboutSection5 />
       
       </>
     );

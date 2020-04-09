@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 
-import { } from '../../../images/index'
+import { ProgressBg } from '../../../images/index'
 
-import './services.css';
 
 class AboutSection3 extends Component {
   render() {

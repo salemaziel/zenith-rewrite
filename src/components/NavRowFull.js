@@ -11,7 +11,7 @@ class NavRowFull extends React.Component {
         <div className="col-md-4 my-auto">
           <Row className="d-flex flex-row">
             <div className="col-8 my-auto">
-              <NavLogo></NavLogo>
+              <NavLogo />
             </div>
             <div className="col-4 text-right my-auto">
               <div className="navbar-toggle">

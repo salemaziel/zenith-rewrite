@@ -26,4 +26,7 @@ export const CustomersLove = require('./customers-love.jpg');
 export const RoofOnly = require('./logo-roof-only.png');
 export const Reviewer = require('./reviewer.jpeg');
 export const Reviewer2 = require('./reviewer2-500x500.jpg');
+export const Climbing = require('./climbing.jpg');
+export const ProgressBg = require('./progressBg.jpg');
+export const Toolbelt = require('./toolbelt.jpg');
 

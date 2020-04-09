@@ -1,13 +1,12 @@
 import React from 'react';
-import BrownConcreteRoof from '../../../images/'
 
+import { Link } from 'gatsby'
 
 class ServicesHeader extends React.Component {
   render() {
     return (
       <section
-        className="inner-page-banner servicesBanner"
-        data-bg-image={BrownConcreteRoof}>
+        className="inner-page-banner servicesBanner">
         <div className="container">
           <div className="row">
             <div className="col-12">
@@ -15,7 +14,7 @@ class ServicesHeader extends React.Component {
                 <h1>Our Services</h1>
                 <ul>
                   <li>
-                    <a href="index.html">Home</a>
+                    <Link rel="preload" to="/">Home</Link>
                   </li>
                   <li>Services</li>
                 </ul>

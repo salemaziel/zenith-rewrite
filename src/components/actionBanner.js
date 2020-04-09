@@ -1,15 +1,14 @@
 import React from 'react';
-import BrownConcreteRoof from '../../../images/';
+import { Button } from 'reactstrap'
+import { Link } from 'gatsby'
+
+import '../css/actioncomponent.css'
 
 class ActionBanner extends React.Component {
   render() {
     return (
       <section
         className="action-wrap-layout1 bg-common"
-        data-bg-image="img/figure/banner-shape.png"
-        style={{
-          backgroundImage: 'url("img/figure/banner-shape.png")',
-        }}
       >
         <div className="container">
           <div className="row align-items-center">
@@ -22,13 +21,14 @@ class ActionBanner extends React.Component {
             </div>
             <div className="col-lg-3 col-12 d-flex justify-content-lg-end justify-content-center">
               <div className="action-box-layout1">
-                <a
-                  href="#"
-                  className="btn-fill-xl box-shadow bg-textprimary text-accent"
+                <Button 
+                  tag={Link}
+                  to="#"
+                  className="CTAbutton"
                 >
                   GET A QUOTE
                   <i className="fas fa-angle-right" />
-                </a>
+                </Button>
               </div>
             </div>
           </div>

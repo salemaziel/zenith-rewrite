@@ -10,91 +10,28 @@
 
 /* Page Banner */
 .inner-page-banner {
-    display: block;
-    padding: 10.4rem 0;
-    position: relative;
-    min-height: 35em;
-  }
-  /*
-  .inner-page-banner:after {
-    content: "";
-    height: 100%;
-    width: 100%;
-    background-color: rgba(237, 28, 37, 0.7);
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-  */
-  .inner-page-banner:after {
-    content: "";
-    height: 100%;
-    width: 100%;
-    background-color: rgba(0,0,0, 0.1);
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
+  display: block;
+  padding: 10.4rem 0;
+  position: relative;
+  min-height: 30em;
+}
+/*
+.inner-page-banner:after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background-color: rgba(237, 28, 37, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+*/
 
-  .inner-page-banner .breadcrumbs-area {
-    position: relative;
-    z-index: 1;
-  }
-  .inner-page-banner .breadcrumbs-area h1 {
-    font-weight: 600;
-    text-transform: capitalize;
-    color: #ffffff;
-    margin-bottom: 15px;
-  }
+.servicesBanner {
+  background-image: url('../../../images/brown-concrete-roofs-1920x600.jpg');
+}
 
-  .servicesBanner {
-      background-image: url('../../../images/brown-concrete-roofs-1920x600.jpg');
-  }
-
-  .inner-page-banner .breadcrumbs-area ul li {
-    display: inline-block;
-    color: #ffffff;
-    font-size: 16px;
-    position: relative;
-    margin-right: 12px;
-    padding-right: 10px;
-    margin-bottom: 10px;
-  }
-  .inner-page-banner .breadcrumbs-area ul li:before {
-    content: ".";
-    font-size: 16px;
-    font-weight: 700;
-    position: absolute;
-    right: -3px;
-    top: 52%;
-    -webkit-transform: translateY(-50%);
-    -moz-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    -o-transform: translateY(-50%);
-    transform: translateY(-50%);
-    z-index: 5;
-    color: #cccccc;
-  }
-  .inner-page-banner .breadcrumbs-area ul li a {
-    color: #dcdcdc;
-    -webkit-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
-    -ms-transition: all 0.3s ease-out;
-    -o-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
-  }
-  .inner-page-banner .breadcrumbs-area ul li a:hover {
-    color: #ffffff;
-  }
-  .inner-page-banner .breadcrumbs-area ul li:last-child {
-    margin-right: 0;
-    padding-right: 0;
-  }
-  .inner-page-banner .breadcrumbs-area ul li:last-child:before {
-    display: none;
-  }
 
 
 

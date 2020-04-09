@@ -10,7 +10,7 @@ class HeroHeaderSection extends React.Component {
   render() {
     return (
       <section className="hero-section">
-        <Container>
+        <Container className="heroLogo">
           <Row>
             <div className="col-md-12">
               <h1>

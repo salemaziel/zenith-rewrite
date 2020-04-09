@@ -1,22 +1,22 @@
 import React from 'react';
 
+import { Link } from 'gatsby'
 
-class AboutHeader extends React.Component {
+class ContactHeader extends React.Component {
   render() {
     return (
       <section
-        className="inner-page-banner servicesBanner"
-        >
+        className="inner-page-banner contactBanner">
         <div className="container">
           <div className="row">
             <div className="col-12">
               <div className="breadcrumbs-area">
-                <h1>About Us</h1>
+                <h1>Contact</h1>
                 <ul>
                   <li>
-                    <a href="index.html">Home</a>
+                  <Link rel="preload" to="/">Home</Link>
                   </li>
-                  <li>About</li>
+                  <li>Contact</li>
                 </ul>
               </div>
             </div>
@@ -27,4 +27,4 @@ class AboutHeader extends React.Component {
   }
 }
 
-export default AboutHeader
+export default ContactHeader
