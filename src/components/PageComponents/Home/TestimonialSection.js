@@ -11,11 +11,9 @@ class TestimonialSection extends React.Component {
     return (
       <section className="testmonial">
         <Container className="top-text">
-          <Row>
             <div className="col-md-12">
               <TestimonialTitles></TestimonialTitles>
             </div>
-            </Row>
         </Container>
         <div className="container-fluid">
           <Row className="justify-content-center">

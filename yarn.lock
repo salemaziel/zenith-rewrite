@@ -10484,6 +10484,11 @@ react-side-effect@^1.1.0:
   dependencies:
     shallowequal "^1.0.1"
 
+react-simple-sidenav@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/react-simple-sidenav/-/react-simple-sidenav-1.0.1.tgz#54b3fec4865e8157d387e924bfae653234e35be6"
+  integrity sha1-VLP+xIZegVfTh+kkv65lMjTjW+Y=
+
 react-slick@^0.25.2:
   version "0.25.2"
   resolved "https://registry.yarnpkg.com/react-slick/-/react-slick-0.25.2.tgz#56331b67d47d8bcfe2dceb6acab1c8fd5bd1f6bc"

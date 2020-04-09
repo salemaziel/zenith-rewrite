@@ -1,10 +1,27 @@
-import React from "react";
-import NavLogo from "./NavDir/NavLogo";
-import NavPages from "./NavDir/NavPages";
+import React from "react"
+import NavLogo from "./NavDir/NavLogo"
+import NavPages from "./NavDir/NavPages"
 
-import { Row } from 'reactstrap'
+import {  Row, NavLink } from "reactstrap"
+import SideNav from "react-simple-sidenav"
+import { Link } from 'gatsby'
+import { Logo } from "../images/index"
+
 
 class NavRowFull extends React.Component {
+  constructor() {
+    super();
+
+    this.state = {
+      showNav: false,
+      title: '',
+      items: '',
+      openFromRight: '',
+
+
+      
+    }
+  }
   render() {
     return (
       <Row className="d-flex flex-row">
@@ -14,24 +31,44 @@ class NavRowFull extends React.Component {
               <NavLogo />
             </div>
             <div className="col-4 text-right my-auto">
-              <div className="navbar-toggle">
+            
+
+              <div 
+                className="navbar-toggle"
+                onClick={() => this.setState({showNav: true})}>
                 {" "}
-                <span className="icon-bar" /> <span className="icon-bar" />{" "}
+               
+                <span className="icon-bar" /> 
+                <span className="icon-bar" />{" "}
                 <span className="icon-bar" />{" "}
               </div>
-    </div>
-        </Row>
-  
+              </div>
+          </Row>
         </div>
         <div className="col-lg-8 my-auto navigation">
-        <div class="col-md-8 my-auto">
-          <NavPages />
+          <div className="col-md-8 my-auto">
+            <NavPages />
+            
           </div>
         </div>
-
+       <SideNav 
+              openFromRight={true}
+              title={<div><NavLink><img src={Logo} width="100%"
+               /></NavLink></div>} 
+              titleStyle={{ background: 'inherit', color: '#black'}}
+              items={[
+                <NavLink tag={Link} to='/'>Home</NavLink>,
+                <NavLink tag={Link} to='/about'>About</NavLink>,
+                <NavLink tag={Link} to='/services'>Services</NavLink>,
+                <NavLink tag={Link} to='/systems'>Systems</NavLink>,
+                <NavLink tag={Link} to='/contact'>Contact</NavLink>,
+                ]} 
+              itemStyle = {{background: 'inherit', color: '#fff', fontSize: '1.5rem', padding: '0.5rem 0'}}
+              showNav = {this.state.showNav}
+              onHideNav = {() => this.setState({showNav: false})} />
       </Row>
-    );
+    )
   }
 }
 
-export default NavRowFull;
+export default NavRowFull

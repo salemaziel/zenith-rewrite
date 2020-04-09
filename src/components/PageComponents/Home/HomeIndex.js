@@ -22,7 +22,7 @@ class HomeIndex extends Component {
         <ServicesSection />
         <ActionBanner />
         <SystemsSection />
-        <TestimonialSection />
+       <TestimonialSection />
       
 
 
