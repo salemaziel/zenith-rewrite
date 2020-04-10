@@ -1,13 +1,13 @@
 import React from 'react';
-import Layout from '../components/layout';
-import HomeIndex from '../components/PageComponents/Home/HomeIndex';
+//import Layout from '../components/layout';
+import ComingSoonPage from '../components/PageComponents/ComingSoon/comingsoonpage'
 
 
 
-const Home = () => (
-  <Layout>
-    <HomeIndex />
-  </Layout>
+const ComingSoon = () => (
+  <>
+    <ComingSoonPage />
+  </>
 );
 
-export default Home
+export default ComingSoon

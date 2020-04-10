@@ -29,4 +29,9 @@ export const Reviewer2 = require('./reviewer2-500x500.jpg');
 export const Climbing = require('./climbing.jpg');
 export const ProgressBg = require('./progressBg.jpg');
 export const Toolbelt = require('./toolbelt.jpg');
+export const LogoWshadowDark = require('./logo-Wshadow-dark.png');
+export const LogoWshadowLight = require('./logo-Wshadow-light.png');
+export const ComingSoon1 = require('./architectural-comingsoon.jpg');
+export const ComingSoon2 = require('./roofs-comingsoon2.jpg');
+
 
