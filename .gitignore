@@ -72,3 +72,8 @@ yarn-error.log
 
 .history/
 /.history/
+
+redux.*.state
+redux.*.state/
+/redux.*.state
+/redux.*.state/
