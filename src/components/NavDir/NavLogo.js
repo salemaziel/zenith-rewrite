@@ -8,7 +8,7 @@ class NavLogo extends Component {
     return (
       <div className="logo-site">
         <Link to="/" rel="preload">
-          <img src={Logo} className="img-fluid" />
+          <img src={Logo} className="img-fluid" alt='Zenith Roofing Logo' />
         </Link>
       </div>
     );

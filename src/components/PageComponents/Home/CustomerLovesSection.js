@@ -6,7 +6,7 @@ class CustomerLovesSection extends React.Component {
     return (
       <section className="customer-loves">
         {" "}
-        <img src={CustomersLove} className="img-fluid" />{" "}
+        <img src={CustomersLove} className="img-fluid" alt='' />{" "}
       </section>
     );
   }

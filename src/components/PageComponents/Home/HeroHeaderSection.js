@@ -18,6 +18,7 @@ class HeroHeaderSection extends React.Component {
                 <img
                   src={RoofOnly}
                   className="heroLogo"
+                  alt=''
                 />{" "}
                 Zenith{" "}
               </h1>

@@ -8,7 +8,7 @@ class TestimonialBox extends React.Component {
       <Card className="white-box-inner">
         <div className="profile-area">
           <div className="profile-img">
-            <CardImg src={Reviewer2} className="img-fluid" />
+            <CardImg src={Reviewer2} className="img-fluid" alt='' />
           </div>
           <h2>Mark Steven</h2>
           <h3>Architecture</h3>

@@ -6,7 +6,7 @@ class HeroBoxes2 extends React.Component {
   render() {
     return (
       <div className="boxes">
-        <img src={Block2} className="img-fluid" />
+        <img src={Block2} className="img-fluid" alt='' />
       </div>
     );
   }

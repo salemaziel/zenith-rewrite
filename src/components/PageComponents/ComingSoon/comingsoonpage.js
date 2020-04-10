@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import comingsoonStyles from "./comingsoon.module.css"
 
-import { LogoWshadowDark } from '../../../images/index'
+import { LogoWshadowDarkVert } from '../../../images/index'
 
 
 class ComingSoonPage extends Component {
@@ -15,7 +15,7 @@ class ComingSoonPage extends Component {
   <div /*id="main"*/ className={comingsoonStyles.main}>
     <div /*className="inner"*/ className={comingsoonStyles.inner}>
       <header /*id="header"*/ className={comingsoonStyles.header}>
-        <img src={LogoWshadowDark} width="75%" style={{margin: 'auto'}} />
+        <img src={LogoWshadowDarkVert} width="75%" style={{margin: 'auto'}} alt='Zenith Roofing Logo'/>
         <h1 /*id="text01"*/ className={comingsoonStyles.text01}>Coming Soon</h1>
        {/* <p /*id="text04"* / className={comingsoonStyles.text04}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tristique, magna ut tincidunt lacinia, ante erat hendrerit est, id varius tortor ipsum.</p>*/}
         <div id="timer01" className="timer">

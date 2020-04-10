@@ -7,7 +7,7 @@ class FooterBoxLeft extends React.Component {
     return (
       <div className="box-one">
         <div className="logo">
-          <img src={Logo} className="img-fluid" />
+          <img src={Logo} className="img-fluid" alt=''/>
         </div>
         <div className="social-icon">
           {" "}

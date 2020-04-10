@@ -5,7 +5,7 @@ import NavPages from "./NavDir/NavPages"
 import {  Row, NavLink } from "reactstrap"
 import SideNav from "react-simple-sidenav"
 import { Link } from 'gatsby'
-import { Logo } from "../images/index"
+import { LogoWshadowDarkVert } from "../images/index"
 
 
 class NavRowFull extends React.Component {
@@ -53,7 +53,7 @@ class NavRowFull extends React.Component {
         </div>
        <SideNav 
               openFromRight={true}
-              title={<div><NavLink><img src={Logo} width="100%"
+              title={<div><NavLink><img src={LogoWshadowDarkVert} width="100%" alt=''
                /></NavLink></div>} 
               titleStyle={{ background: 'inherit', color: '#black'}}
               items={[

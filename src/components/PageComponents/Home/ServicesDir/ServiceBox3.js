@@ -11,7 +11,7 @@ class ServiceBox3 extends React.Component {
       <Card inverse>
       <div className="boxes">
         {" "}
-        <CardImg src={Solar} className="img-fluid" />
+        <CardImg src={Solar} className="img-fluid" alt=''/>
         <ServiceBoxText3></ServiceBoxText3>
       </div>
       </Card>

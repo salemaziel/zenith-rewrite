@@ -11,7 +11,7 @@ React.createClass({
         <SideNav
         showNav={this.state.showNav}
         onHideNav={()=>this.setState({showNav:false})}
-        title={<div>Hello octo <img src='git-mark.png' width='26' /></div>}
+        title={<div>Hello octo <img src='git-mark.png' width='26' alt='' /></div>}
         titleStyle={{backgroundColor: '#2196F3'}}
         items={[
           <a target='_blank' href='https://github.com/gauravchl/react-simple-sidenav'>View Source on github</a>,

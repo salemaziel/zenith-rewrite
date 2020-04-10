@@ -6,7 +6,7 @@ class TestimonialBoxInner extends React.Component {
       <div className="white-box-inner">
         <div className="profile-area">
           <div className="profile-img">
-            <img src="images/customersloveus.png" className="img-fluid" />
+            <img src="images/customersloveus.png" className="img-fluid" alt='' />
           </div>
           <h2>Mark Steven</h2>
           <h3>Architecture</h3>

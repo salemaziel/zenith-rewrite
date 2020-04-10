@@ -10,7 +10,7 @@ class ServiceBox5 extends React.Component {
       <Card inverse>
       <div className="boxes">
         {" "}
-        <CardImg src={Inspections} className="img-fluid" />
+        <CardImg src={Inspections} className="img-fluid" alt=''/>
         <ServiceBoxText5></ServiceBoxText5>
       </div>
       </Card>

@@ -15,17 +15,17 @@ class HeroBoxesSection extends React.Component {
           <Row style={{ display: 'flex', flexDirection: 'row' }}>
             <div className="col-4">
               <div className="boxes">
-                <img src={Block1} className="img-fluid" />
+                <img src={Block1} className="img-fluid" alt=''/>
               </div>
             </div>
             <div className="col-4">
               <div className="boxes">
-                <img src={Block2} className="img-fluid" />
+                <img src={Block2} className="img-fluid" alt=''/>
               </div>
             </div>
             <div className="col-4">
               <div className="boxes">
-                <img src={Block3} className="img-fluid" />
+                <img src={Block3} className="img-fluid" alt=''/>
               </div>
             </div>
           </Row>

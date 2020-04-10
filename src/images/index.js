@@ -33,5 +33,7 @@ export const LogoWshadowDark = require('./logo-Wshadow-dark.png');
 export const LogoWshadowLight = require('./logo-Wshadow-light.png');
 export const ComingSoon1 = require('./architectural-comingsoon.jpg');
 export const ComingSoon2 = require('./roofs-comingsoon2.jpg');
+export const LogoWshadowDarkVert = require('./logo-vertical-dark-2000x1643.png');
+export const LogoWshadowLightVert = require('./logo-vertical-light-2000x1643.png');
 
 

@@ -6,7 +6,7 @@ class ServiceBox extends React.Component {
     return (
       <div className="boxes">
         {" "}
-        <img src="images/service-roofrepair.jpg" className="img-fluid" />
+        <img src="images/service-roofrepair.jpg" className="img-fluid" alt=''/>
         <ServiceBoxText></ServiceBoxText>
       </div>
     );

@@ -30,7 +30,7 @@ module.exports = {
         background_color: `#0d4879`,
         theme_color: `#ff9900`,
         display: `minimal-ui`,
-        icon: `src/images/logo-Wshadow-dark.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo-vertical-dark-500x410.png`, // This path is relative to the root of the site.
       },
     },
     /*{

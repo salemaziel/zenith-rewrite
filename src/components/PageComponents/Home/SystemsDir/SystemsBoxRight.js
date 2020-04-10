@@ -8,7 +8,7 @@ class SystemsBoxRight extends React.Component {
       <div className="box-right">
         <h2>
           {" "}
-          <img src={Systemslogo} className="img-system" />{" "}
+          <img src={Systemslogo} className="img-system" alt='' />{" "}
           <span>Systems</span> We Work With{" "}
         </h2>
         <ul>
