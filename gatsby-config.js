@@ -22,6 +22,14 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
+      resolve: `gatsby-plugin-tawk`,
+      options: {
+        tawkId: "5e77c1ad8d24fc2265895053",
+        widgetId: "YOUR_WIDGET_ID" 
+        // get this from the tawk script widget
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Zenith Roofing`,

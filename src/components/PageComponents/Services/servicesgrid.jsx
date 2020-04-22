@@ -9,8 +9,7 @@ import {
     Service19,
 } from '../../../images/index'
 
-import { Container } from 'reactstrap'
-
+import Container from "react-bootstrap/Container";
 
 
 class ServicesGrid extends Component {

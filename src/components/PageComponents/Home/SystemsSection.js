@@ -1,8 +1,7 @@
 import React from "react";
 import SystemsBox from "./SystemsDir/SystemsBox";
 
-import { Row } from 'reactstrap'
-
+import Row from "react-bootstrap/Row";
 
 class SystemsSection extends React.Component {
   render() {

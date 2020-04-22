@@ -227,7 +227,7 @@ form .actions {
 }
 
 form button {
-	background-color: #ff9900!important;
+	background-color: #ff9900;
 	border: 5px solid #ff9900;
 	color: #ffffff;
 	text-shadow: 1px 1px 1px #000000;
@@ -259,8 +259,8 @@ form button {
 
 
 form button:hover{
-	background-color: #facd51!important;
-	border-color: #facd51!important;
+	background-color: #facd51;
+	border-color: #facd51;
 }
 
 

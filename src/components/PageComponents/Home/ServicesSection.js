@@ -2,8 +2,8 @@ import React from "react";
 import ServicesTitles from "./ServicesDir/ServicesTitles";
 import ServiceBoxesArea from "./ServicesDir/ServiceBoxesArea";
 
-import { Container, Row } from 'reactstrap'
-
+import Row from "react-bootstrap/Row";
+import Container from "react-bootstrap/Container";
 
 class ServicesSection extends React.Component {
   render() {
@@ -12,11 +12,11 @@ class ServicesSection extends React.Component {
         <Container className="service-offer">
           <Row>
             <div className="col-md-12">
-              <ServicesTitles></ServicesTitles>
+              <ServicesTitles />
             </div>
           </Row>
         </Container>
-        <ServiceBoxesArea></ServiceBoxesArea>
+        <ServiceBoxesArea />
       </section>
     );
   }

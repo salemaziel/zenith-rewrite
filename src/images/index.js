@@ -32,8 +32,13 @@ export const Toolbelt = require('./toolbelt.jpg');
 export const LogoWshadowDark = require('./logo-Wshadow-dark.png');
 export const LogoWshadowLight = require('./logo-Wshadow-light.png');
 export const ComingSoon1 = require('./architectural-comingsoon.jpg');
+export const ComingSoon1Md = require('./architectural-comingsoon-767x431.jpg');
 export const ComingSoon2 = require('./roofs-comingsoon2.jpg');
-export const LogoWshadowDarkVert = require('./logo-vertical-dark-2000x1643.png');
-export const LogoWshadowLightVert = require('./logo-vertical-light-2000x1643.png');
-
+export const LogoWshadowDarkVertLg = require('./logo-vertical-dark-2000x1643.png');
+export const LogoWshadowLightVertLg = require('./logo-vertical-light-2000x1643.png');
+export const LogoWshadowDarkVertMd = require('./logo-vertical-dark-500x410.png');
+export const LogoWshadowLightVertMd = require('./logo-vertical-light-500x410.png');
+export const LogoWshadowDarkVertSm = require('./logo-vertical-dark-300x246.png');
+export const LogoWshadowLightVertSm = require('./logo-vertical-light-300x246.png');
+export const CustomersLoveGuy = require('./customersloveus.png');
 

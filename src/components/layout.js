@@ -4,6 +4,12 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./Header"
 import Footer from "./Footer"
+//import SideNav from "react-simple-sidenav"
+//import { Link } from 'gatsby'
+//import { LogoWshadowDarkVertSm } from '../images/index'
+import NavMobile from './NavMobile'
+import NavbarCustom from "./NavBar"
+
 import "bootstrap/dist/css/bootstrap.min.css"
 import '../css/main.css'
 
@@ -28,6 +34,9 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header /*siteTitle={data.site.siteMetadata.title}*/ />
+      <NavbarCustom />
+      <NavMobile />
+
       {children}
       <Footer />
     </>

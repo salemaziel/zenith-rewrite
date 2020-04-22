@@ -1,7 +1,6 @@
 import React from "react";
 import HeroBoxes from "./HeroBoxes";
-import { Row } from 'reactstrap'
-
+import Row from "react-bootstrap/Row";
 
 class HeroBoxesRow extends React.Component {
   render() {

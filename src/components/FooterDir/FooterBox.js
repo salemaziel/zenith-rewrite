@@ -3,7 +3,7 @@ import FooterBoxLeft from "./FooterBoxLeft";
 import FooterBoxMiddle from "./FooterBoxMiddle";
 import FooterBoxRight from "./FooterBoxRight";
 
-import { Row } from 'reactstrap'
+import Row from "react-bootstrap/Row";
 
 
 class FooterBox extends React.Component {

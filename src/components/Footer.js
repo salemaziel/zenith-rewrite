@@ -1,7 +1,8 @@
 import React from "react";
 import FooterBox from "./FooterDir/FooterBox";
 
-import { Row } from 'reactstrap'
+import Row from "react-bootstrap/Row";
+
 
 class Footer extends React.Component {
   render() {

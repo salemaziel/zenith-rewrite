@@ -5,7 +5,7 @@ import {
   Block3
 } from '../../../images/index'
 
-import { Row } from 'reactstrap';
+import Row from "react-bootstrap/Row";
 
 class HeroBoxesSection extends React.Component {
   render() {

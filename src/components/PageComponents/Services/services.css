@@ -29,7 +29,11 @@
 */
 
 .servicesBanner {
-  background-image: url('../../../images/brown-concrete-roofs-1920x600.jpg');
+  background-image: url('../../../images/architectural-comingsoon-767x431.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  
 }
 
 
@@ -134,7 +138,7 @@
 
 
     
-  @media only screen and (max-width: 991px) {
+  @media screen and (max-width: 991px) {
     .inner-page-banner .breadcrumbs-area h1 {
       font-size: 30px;
     }
@@ -142,7 +146,7 @@
 
 
 
-  @media only screen and (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     .inner-page-banner .breadcrumbs-area h1 {
       font-size: 28px;
     }
@@ -153,7 +157,7 @@
   
 
 
-  @media only screen and (max-width: 480px) {
+  @media screen and (max-width: 480px) {
     .inner-page-banner {
         max-height: 0;
         min-height: 0;

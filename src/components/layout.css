@@ -617,8 +617,10 @@ pre tt:after {
 }
 */
 
+aside {
+  z-index: 10!important;
+}
 
-/*
   .fullNav {
     display: flex;
   }
@@ -626,10 +628,23 @@ pre tt:after {
   .mobileNav {
     display: none;
   }
+  .mobileNavRow{
+    display: none;
+  }
+.navbar-toggle {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  padding: 10px;
+  color: #0F4573;
+  /*border: 2px solid #0d4879;
+  border-radius: 4px;*/
+  cursor: pointer;
+  display: none;
+}
 
-*/
 
-/*
+
 @media only screen and (min-width: 2400px) {
     html {
       font-size: 100%;
@@ -638,6 +653,9 @@ pre tt:after {
       display: flex;
     }
     .mobileNav {
+      display: none!important;
+    }
+    .mobileNavRow{
       display: none;
     }
   
@@ -650,9 +668,12 @@ pre tt:after {
       font-size: 100%;
     }
     .fullNav {
-      display: flex;
+      display: flex!important;
     }
     .mobileNav {
+      display: none!important;
+    }
+    .mobileNavRow{
       display: none;
     }
   
@@ -665,10 +686,13 @@ pre tt:after {
       font-size: 100%;
     }
     .fullNav {
-      display: flex;
+      display: flex!important;
     }
     .mobileNav {
-      display: none;
+      display: none!important;
+    }
+    .mobileNavRow{
+      display:none;
     }
   
   } 
@@ -679,28 +703,91 @@ pre tt:after {
     html {
       font-size: 100%;
     }
-
     .fullNav {
+      display: none!important;
+    }
+    .mobileNavRow{
       display: flex;
     }
     .mobileNav {
-      display: none;
+      display: inline-block!important;
+      z-index: 10;
+      margin: 1rem auto;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      padding: 1rem 2rem;
+  }
+  .navbar-toggle {
+  
+  }
+  
+  .icon-bar {
+    display: block;
+    width: 50px;
+    height: 10px;
+    border-radius: 1px;
+    background: #0d4879;
+    margin: 4px 0 0 2rem;
+    padding: 0;
+    list-style: none;
+    border: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 10;
+}
+    .mobileLogo {
+      width: 80%;
+      margin: auto;
+      padding: 0;
     }
   
   }  
 
 
 
-@media only screen and (max-width: 736px) {
+@media only screen and (max-width: 767px) {
     html {
       font-size: 100%;
     }
 
     .fullNav {
-      display: none;
+      display: none!important;
+    }
+    .mobileNavRow{
+      display: flex;
     }
     .mobileNav {
-      display: flex;
+      display: inline-block!important;
+      z-index: 10;
+      margin: auto;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      padding: 1rem;
+  }
+  .navbar-toggle {
+  
+  }
+  
+  .icon-bar {
+      display: block;
+      width: 35px;
+      height: 5px;
+      border-radius: 1px;
+      background: #0d4879;
+      margin: 4px 0 0 0;
+      padding: 0;
+      list-style: none;
+      border: none;
+      text-decoration: none;
+      font-family: 'Montserrat', sans-serif;
+      z-index: 10;
+  }
+    .mobileLogo {
+      width: 100%;
+      margin: 1rem auto;
+      padding: 10px;
     }
   
   }
@@ -713,11 +800,39 @@ pre tt:after {
   }
 
   .fullNav {
-    display: none;
+    display: none!important;
   }
-  .mobileNav {
+
+  .mobileNavRow{
     display: flex;
   }
+  .mobileNav {
+    display: inline-block!important;
+    z-index: 10;
+    margin: auto;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.navbar-toggle {
+
+}
+
+.icon-bar {
+    display: block;
+    width: 35px;
+    height: 5px;
+    border-radius: 1px;
+    background: #0d4879;
+    margin: 4px 0 0 0;
+    padding: 0;
+    list-style: none;
+    border: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 10;
+}
 
 }
 
@@ -728,10 +843,20 @@ pre tt:after {
   }
 
   .fullNav {
-    display: none;
+    display: none!important;
   }
   .mobileNav {
+    display: inline-block!important;
+    margin: auto;
+    transform: scale(1.1);
+  }
+  .mobileNavRow{
     display: flex;
   }
+  .mobileLogo {
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+  }
 
-}*/
+}

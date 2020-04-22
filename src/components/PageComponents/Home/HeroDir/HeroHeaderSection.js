@@ -2,7 +2,8 @@ import React from "react";
 import HeroBtnCallNow from "./HeroBtnCallNow";
 import HeroBtnGetQuote from "./HeroBtnGetQuote";
 
-import { Container, Row } from 'reactstrap'
+import Row from "react-bootstrap/Row";
+import Container from "react-bootstrap/Container";
 
 import RoofOnly from '../../../../images/index'
 

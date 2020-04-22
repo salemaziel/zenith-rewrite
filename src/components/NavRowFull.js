@@ -1,8 +1,8 @@
 import React from "react"
 import NavLogo from "./NavDir/NavLogo"
 import NavPages from "./NavDir/NavPages"
-
-import {  Row, NavLink } from "reactstrap"
+import Row from "react-bootstrap/Row";
+import { NavLink } from "reactstrap"
 import SideNav from "react-simple-sidenav"
 import { Link } from 'gatsby'
 import { LogoWshadowDarkVert } from "../images/index"
@@ -63,7 +63,7 @@ class NavRowFull extends React.Component {
                 <NavLink tag={Link} to='/systems'>Systems</NavLink>,
                 <NavLink tag={Link} to='/contact'>Contact</NavLink>,
                 ]} 
-              itemStyle = {{background: 'inherit', color: '#fff', fontSize: '1.5rem', padding: '0.5rem 0'}}
+              itemStyle = {{background: 'inherit', color: '#fff', fontSize: 'inherit', padding: '0.5rem 0'}}
               showNav = {this.state.showNav}
               onHideNav = {() => this.setState({showNav: false})} />
       </Row>

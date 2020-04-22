@@ -1,35 +1,7 @@
-.about-wrap-layout1 {
-    background-color: #6ac5f2;
-    background-image: url('');
-    background-repeat: no-repeat;
-    background-position: right bottom;
-  }
-  .about-wrap-layout2 {
-    padding: 10rem 0;
-    background-color: #f8f8f8;
-    overflow: hidden;
-  }
-  .about-wrap-layout3 {
-    padding: 10rem 0 3rem;
-    overflow: hidden;
-  }
-  .about-wrap-layout4 {
-    padding: 9.4rem 0 10rem;
-  }
-  .about-wrap-layout5 {
-    padding: 10rem 0;
-    background-image: url('');
-    background-repeat: no-repeat;
-    background-position-y: bottom;
-  }
-  .about-wrap-layout6 {
-    padding: 9.4rem 0 5.5rem;
-  }
-  .about-wrap-layout7 {
-    background-color: #f8f8f8;
-  }
-
-   
+section.about {
+  margin: 1rem 0;
+  padding: 2rem 4rem;
+}
   .about-box-layout1 .about-box-content .item-header .item-title li {
     font-size: 34px;
     margin-bottom: 10px;
@@ -238,7 +210,7 @@
     position: absolute;
     top: -15px;
     left: -53px;
-    z-index: -1;
+/*    z-index: -1;*/
   }
   .about-box-layout4 .about-box-content {
     padding: 0 30px;
@@ -318,7 +290,7 @@
     position: absolute;
     top: -15px;
     right: -53px;
-    z-index: -1;
+    /*z-index: -1*/;
   }
   .about-box-layout5 .about-box-content {
     padding-right: 5rem;

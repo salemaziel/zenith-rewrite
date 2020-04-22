@@ -6,8 +6,8 @@ class AboutSection2 extends Component {
   render() {
     return (
       <>
-        <section className="about-wrap-layout7 bg-shape-2">
-          <div className="about-box-layout9">
+        <section /*className="about-wrap-layout7 bg-shape-2"*/>
+          <div className="container">
             <div className="single-item left-item">
               <div className="item-content">
                 <h2 className="item-title">Our History</h2>
@@ -25,7 +25,7 @@ class AboutSection2 extends Component {
               </div>
             </div>
             <div className="single-item right-item">
-              <img src={Climbing} alt="About Us" />
+              <img src={Climbing} alt="About Us" className="img-fluid"/>
             </div>
           </div>
         </section>

@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  siteUrl: 'https://zenithroofing.com',
+  siteUrl: 'https://zenithroofingservices.com',
   app: {
     url: 'https://app.zenithroofing.com',
     title: 'Zenith Roofing Referrals',
@@ -16,17 +16,17 @@ module.exports = {
     twitterUsername: 'gatsby-firebase-starter',
   },
   home: {
-    url: 'http://zenithroofing.com',
-    title: 'gatsby-starter-google-sheets',
-    description: 'gatsby-starter-google-sheets',
-    titleTemplate: 'gatsby-starter-google-sheets',
+    url: 'https://zenithroofingservices.com',
+    title: 'Zenith Roofing',
+    description: 'Zenith Roofing',
+    titleTemplate: 'Zenith Roofing',
     subtitle:
       'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     postsPerPage: 4,
-    image: 'gatsby-starter-google-sheets',
-    twitterUsername: 'gatsby-starter-google-sheets',
+    image: 'Zenith Roofing',
+    twitterUsername: 'ZenithRoofings',
   },
   author: {
     name: 'Salem Aziel',

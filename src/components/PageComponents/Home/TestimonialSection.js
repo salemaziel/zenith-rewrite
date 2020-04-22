@@ -3,8 +3,8 @@ import TestimonialTitles from "./TestimDir/TestimonialTitles";
 import TestimonialBox from "./TestimDir/TestimonialBox";
 import TestimonialBoxInner from "./TestimDir/TestimonialBoxInner";
 
-import { Container, Row } from 'reactstrap'
-
+import Row from "react-bootstrap/Row";
+import Container from "react-bootstrap/Container";
 
 class TestimonialSection extends React.Component {
   render() {

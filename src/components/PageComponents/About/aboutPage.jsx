@@ -8,7 +8,7 @@ import AboutSection2 from './aboutSection2';
 import AboutSection3 from './aboutSection3';
 import AboutSection4 from './aboutSection4';
 
-import './about.css'
+//import './about.css'
 
 class AboutPage extends Component {
     render() {

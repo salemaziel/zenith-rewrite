@@ -21,7 +21,7 @@ class NavPages extends React.Component {
             className="nav-link"
             to="/about"
             tag={Link}
-            style={{ fontSize: '1.5em', fontStyle: 'bold' }}
+            /*style={{ fontSize: '1.5em', fontStyle: 'bold' }}*/
           >
             ABOUT
           </NavLink>
@@ -31,7 +31,7 @@ class NavPages extends React.Component {
             className="nav-link"
             to="/services"
             tag={Link}
-            style={{ fontSize: '1.5em', fontStyle: 'bold' }}
+            /*style={{ fontSize: '1.5em', fontStyle: 'bold' }}*/
           >
             SERVICES
           </NavLink>
@@ -54,7 +54,7 @@ class NavPages extends React.Component {
             className="nav-link"
             to="/systems"
             tag={Link}
-            style={{ fontSize: '1.5em', fontStyle: 'bold' }}
+            /*style={{ fontSize: '1.5em', fontStyle: 'bold' }}*/
           >
             SYSTEMS
           </NavLink>
@@ -64,7 +64,7 @@ class NavPages extends React.Component {
             className="nav-link"
             to="/contact"
             tag={Link}
-            style={{ fontSize: '1.5em', fontStyle: 'bold' }}
+            /*style={{ fontSize: '1.5em', fontStyle: 'bold' }}*/
           >
             CONTACT
           </NavLink>
